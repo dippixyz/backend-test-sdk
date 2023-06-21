@@ -1,6 +1,6 @@
-# Dippi SDK for JS
+# Backend to test Dippi SDK
 
-This is the Dippi SDK for JavaScript. It is a wrapper around the Dippi API.
+This backend is used to test the SDK, as if an external user wanted to use it.
 
 ## Installation
 
