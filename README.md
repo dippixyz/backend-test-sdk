@@ -4,41 +4,35 @@ This backend is used to test the SDK, as if an external user wanted to use it.
 
 ## Installation
 
-0. Clone SDK Repo and this backend repo.
+0. Clone repo
    
 ```
 git clone https://github.com/dippixyz/backend-test-sdk.git
 ```
 
-```
-git clone https://github.com/dippixyz/dippi-sdk-js.git
-```
-
-2. Clone the SDK repo in the same path as your project.
-
-Example:
-
-```bash
-/home/user/backend-test-sdk
-/home/user/dippi-sdk-js
-```
-
-2. Install dependencies
+1. Install dependencies
    
 ```bash
 cd /home/user/backend-test-sdk
 npm install 
 ```
-The SDK is not necessary to install anything, just clone the repository.
 
-3. Create a .env file
-
-To get the APP_TOKEN and the APP_ID first register at https://client.dev.dippi.xyz and create a new project.
+2. Install Dippi SDK
 
 ```bash
-APP_TOKEN=ciOiJIUzI1NiIsInR5
-APP_ID=casdasdsd3qx1bh881u8d9
-CLIENT_URL=https://api.dev.dippi.xyz
+npm i @dippixyz/sdk
+```
+
+4. Create a .env file
+
+To get the APP_TOKEN and the APP_ID first register at https://client.dippi.xyz and create a new project.
+
+The Client URL = https://api.dippi.xyz
+
+```bash
+APP_TOKEN=<YOUR_APP_TOKEN>
+APP_ID=<YOUR_APP_ID>
+CLIENT_URL=https://api.dippi.xyz
 ```
 
 
