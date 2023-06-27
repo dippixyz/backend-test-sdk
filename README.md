@@ -13,7 +13,7 @@ git clone https://github.com/dippixyz/backend-test-sdk.git
 1. Install dependencies
    
 ```bash
-cd /home/user/backend-test-sdk
+cd backend-test-sdk
 npm install 
 ```
 
