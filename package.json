@@ -10,7 +10,7 @@
   "author": "Javier Amaya",
   "license": "UNLICENSED",
   "dependencies": {
-    "@dippixyz/sdk": "file:../dippi-sdk-js",
+    "@dippixyz/sdk": "^1.0.1",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
